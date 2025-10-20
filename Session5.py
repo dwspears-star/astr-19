@@ -21,9 +21,8 @@ def print_table(table_data):
 def main():
     
     start_value = 0.0
-    end_value = 2.0
+    end_value = 2 * np.pi
     number_of_entries = 1000
-
     sine_table = generate_sine_table(start_value, end_value, number_of_entries)
     print_table(sine_table)
 
